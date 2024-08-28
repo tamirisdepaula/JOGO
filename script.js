@@ -42,7 +42,7 @@ const playTheGame = (human, machine) => {
         (human === GAME_OPTIONS.TESOURA && machine === GAME_OPTIONS.PAPEL)
     ) {
         humanScoreNumber++
-        humanScore.innerHTML = humanScoreNumber
+        HumanScore.innerHTML = humanScoreNumber
         result.innerHTML = 'Você ganhou!'
 
     } else {
